@@ -35,7 +35,6 @@ ul {
 
 .nav2 {
     list-style-type: none;
-    
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
@@ -70,7 +69,7 @@ a {
     text-decoration: none;
 }
 
-.main-nav a:hover {
+.fordeco:hover {
     color: blue;
     background-color: #dcbab5;
     transform: rotate(7deg);
@@ -97,6 +96,7 @@ a:active {
 }
 
 .logline {
+    font-family: Arial, Helvetica, sans-serif;
     grid-area: logline;
     display: flex;
     padding-left: 2rem;
@@ -165,8 +165,6 @@ a:active {
 
 .shows {
     margin: 1rem 7rem;
-    
-   
 }
 
 td {
@@ -231,6 +229,46 @@ textarea {
     text-transform: uppercase;
     background-color: #7FD5BA;
     }
+
+/* WRITING SAMPLES */
+
+.writingsamples {
+    /* border: 5px solid red; */
+    height: 40rem;
+    width: 60rem;
+    text-align: center;
+    margin: auto;
+}
+
+.rowone {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.rowtwo {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.rowone h3 {
+    border: 5px solid green;
+    margin: 1rem;
+}
+
+.ink {
+    width: 100%;
+}
+
+.ink:hover {
+    transform: rotate(7deg);
+}
 
 /* FOOTER */
 
