@@ -87,6 +87,10 @@ a:active {
     display: grid;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto 1.5rem;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 9992dc89103cafa9ae8f06d0c38abb1384162bb5
     /* font-size: 1.3rem; */
     grid-gap: 5px;
     grid-template-areas: 
