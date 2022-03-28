@@ -86,7 +86,7 @@ a:active {
 #bio {
     display: grid;
     font-family: Arial, Helvetica, sans-serif;
-    margin: auto 7rem;
+    margin: auto 1.5rem;
     
     /* font-size: 1.3rem; */
     grid-gap: 5px;
