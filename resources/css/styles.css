@@ -51,8 +51,9 @@ ul {
 
 li a {
     display: block;
-    color: black;
-    background-color: #7FD5BA;
+    color: #fff7ea;
+    /* background-color: #7FD5BA; */
+    background-color: #255c90;
     border: 3px solid black;
     border-radius: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -165,6 +166,7 @@ a:active {
 
 .shows {
     margin: 1rem 7rem;
+    padding-bottom: 10rem;
 }
 
 td {
