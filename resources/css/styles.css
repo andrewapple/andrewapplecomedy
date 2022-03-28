@@ -4,6 +4,7 @@ html {
     margin: auto;
     list-style: none;
     height: 100%;
+    max-width: 999px;
 }
 
 body {
