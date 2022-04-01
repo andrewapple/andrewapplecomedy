@@ -22,7 +22,6 @@ ul {
 
 .nav2 {
   list-style-type: none;
-  
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
@@ -34,13 +33,18 @@ ul {
 .main-nav li {
   float: left;
   padding: 10px;
-  
 }
+
+.main-nav {
+  padding-bottom: 2rem;
+}
+
 
 li a {
   display: block;
-  color: black;
-  background-color: #7FD5BA;
+  color: #fff7ea;
+  /* background-color: #7FD5BA; */
+  background-color: #255C90;
   border: 3px solid black;
   border-radius: 12px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -57,9 +61,9 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: blue;
-  background-color: #dcbab5;
+.fordeco:hover {
+  color: black;
+  background-color: #f7b32b;
   transform: rotate(7deg);
 }
 
