@@ -87,7 +87,6 @@ a:active {
     display: grid;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto 1.5rem;
-    
     /* font-size: 1.3rem; */
     grid-gap: 5px;
     grid-template-areas: 
@@ -95,6 +94,10 @@ a:active {
         'myface more';
     grid-template-rows: 100px 400px;
     grid-template-columns: 1fr 1fr;
+}
+
+#clicky {
+    cursor: pointer;
 }
 
 .logline {
@@ -118,15 +121,16 @@ a:active {
     text-align: center;
     padding-right: 2rem;
     font-size: 1.25rem;
-    
 }
 
-
+.bookMe {
+    font-weight: bold;
+}
 
 /* Video */
 
 .video {
-    margin-top: 1.5rem;
+    margin-top: 2.25rem;
     text-align: center;
     /* padding-bottom: 1.5rem; */
     float: none;
@@ -311,3 +315,10 @@ textarea {
     font-weight: bold;
     text-align: center;
 }
+
+@media only screen and (max-width: 1000px) {
+    .header img{
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
