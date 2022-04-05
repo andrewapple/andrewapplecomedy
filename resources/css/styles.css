@@ -271,8 +271,7 @@ textarea {
 /* WRITING SAMPLES */
 
 .writingsamples {
-    /* border: 5px solid red; */
-    height: 40rem;
+    height: 32rem;
     width: 60rem;
     text-align: center;
     margin: auto;
@@ -283,17 +282,17 @@ textarea {
     grid-gap: 0.5rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 2rem;
+    
     margin-top: 2rem;
 }
 
+/* SECOND ROW OF WRITING SAMPLES PLACEHOLDER
 .rowtwo {
     display: grid;
     grid-gap: 0.5rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     font-family: Arial, Helvetica, sans-serif;
-    
-}
+} */
 
 .rowone h3 {
     border: 5px solid green;
