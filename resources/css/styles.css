@@ -322,7 +322,7 @@ textarea {
     
 
   }
-
+/*
 @media only screen and (max-width: 920px) {
     #bio {
         grid-template-areas: 
@@ -349,4 +349,33 @@ textarea {
     }
 
 }
+*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) {
+
+    #bio {
+        grid-template-areas: 
+        'logline'
+        'myface'
+        'more';
+        grid-template-rows: 170px 400px 450px;
+        margin: auto 1.5rem;
+    }
+    .logline {
+        width: auto;
+        grid-area: logline;
+    }
+    .myface {
+        width: auto;
+        grid-area: myface;
+        padding-left: 0;
+    }
+    .more {
+        width: auto;
+        grid-area: more;
+        text-align: center;
+        padding-right: 0;
+    }
+  }
 
