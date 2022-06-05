@@ -225,7 +225,30 @@ tr:hover {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Blog */
+
+.blog {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog p {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.blog a {
+    font-weight: bold;
+    color: #255C90;
+    text-decoration: underline;
+}
+
 /* Say Hey */
+
+.contact {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
 
 .form {
     text-align: center;
@@ -265,7 +288,7 @@ textarea {
     font-size: 2rem;
     text-transform: uppercase;
     background-color: #7FD5BA;
-    }
+    } */
 
 /* WRITING SAMPLES */
 
