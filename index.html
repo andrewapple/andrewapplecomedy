@@ -14,20 +14,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
     <script src="bio.js"></script>
 
-    <!--<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
   </head>
   <body>
 
     <!-- Header -->
 
     <section class="header">
+
+      <!--
+      <h1>
+        <span class="the-a">A</span><span class="the-n">n</span><span class="the-d">d</span><span class="the-r">r</span><span class="the-e">e</span><span class="the-w">w</span>
+      </h1> -->
+      
         <div class="logo">
           <a href="index.html">
             <img src="resources/logos/logo-blueA-jumbled.png">
           </a>
-        </div>
+        </div> 
     </section> 
       
       <!--
@@ -39,7 +42,7 @@
 
     <!-- Navigation -->
 
-    <nav class="main-nav" align="center">
+    <nav class="main-nav topnav" id="myTopnav" align="center">
      <!-- <nav class="main-nav" >-->
         <ul class="nav2">
           <li><a href="index.html" class="fordeco fd1" style="background-color: #8F250C">bio</a></li>
@@ -50,6 +53,7 @@
           <!--<li><a href="book me.html" class="fordeco fd3">book me</a></li>-->
           <li><a href="say hey.html" class="fordeco fd1">say hey</a></li>
         </ul>
+        <!--<a href="javascript:void(0);" style="font-size:15px;" class="navicon" onclick="myFunction()"><img src="resources/menu-svg/6.png"></a>-->
     </nav>
 
     <!-- Bio -->
@@ -125,6 +129,16 @@
       <p>© Bearshark Films</p>
     </div>
 
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
     <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>-->
   </body>
 </html>

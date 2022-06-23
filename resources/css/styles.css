@@ -1,3 +1,7 @@
+@font-face { font-family: ChunkFive; src: url('fonts/chunk-master/Chunk.otf'); } 
+ @font-face { font-family: ChunkFive; font-weight: bold; src: url('fonts/chunk-master/Chunk.otf');}
+
+
 html {
     background-color: #fff7ea;
     box-sizing: border-box;
@@ -13,19 +17,52 @@ body {
   }
 
 
+  
 h1 {
     font-family: 'Shippori Antique B1', sans-serif;
     font-size: 5rem;
-}
-
+} 
 
 /* Logo */
+
+/*
+h1 {
+    padding-top: 0;
+    padding-bottom: 0;
+} 
 
 .header {
     width: 100%;
     text-align: center;
+    font-family: ChunkFive;
+    font-size: 5rem;
+    text-transform: uppercase;
+    border: 5px solid red;
 }
-  
+
+.the-a {
+    color: #255C90
+}
+
+.the-n {
+    color: #8f250c;
+}
+
+.the-d {
+    color: #f7b32b;
+}
+
+.the-r {
+    color: #8f250c;
+}
+
+.the-e {
+    color: #255C90
+}
+
+.the-w {
+    color: #f7b32b;
+} */
 
 /* Navigation */
 
@@ -373,5 +410,58 @@ textarea {
     }
 
 }
+
+/* PRACTICING MOBILE NAV 
+
+.topnav .navicon {
+    display: none;
+  }
+
+  .topnav {
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+   
+  }
+
+@media screen and (max-width: 920px) {
+    .topnav a {
+      display: none;
+    }
+    .topnav a.navicon {
+      float: right;
+      display: block;
+    }
+    
+    .navicon img{
+        width: 4rem;
+        height: 4rem;
+    }
+   
+}
+
+@media screen and (max-width: 920px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.navicon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive {float: none;}
+  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}  */
 
 
