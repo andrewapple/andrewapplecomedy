@@ -1,5 +1,5 @@
 @font-face { font-family: ChunkFive; src: url('fonts/chunk-master/Chunk.otf'); } 
- @font-face { font-family: ChunkFive; font-weight: bold; src: url('fonts/chunk-master/Chunk.otf');}
+@font-face { font-family: ChunkFive; font-weight: bold; src: url('fonts/chunk-master/Chunk.otf');}
 
 
 html {
@@ -331,10 +331,14 @@ textarea {
 /* WRITING SAMPLES */
 
 .writingsamples {
-    height: 32rem;
     width: 60rem;
     text-align: center;
     margin: auto;
+}
+
+.scripts {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
 }
 
 .rowone {
@@ -342,17 +346,17 @@ textarea {
     grid-gap: 0.5rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     font-family: Arial, Helvetica, sans-serif;
-    
     margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
-/* SECOND ROW OF WRITING SAMPLES PLACEHOLDER
+
 .rowtwo {
     display: grid;
     grid-gap: 0.5rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     font-family: Arial, Helvetica, sans-serif;
-} */
+} 
 
 .rowone h3 {
     border: 5px solid green;
@@ -374,6 +378,8 @@ textarea {
     font-weight: bold;
     text-align: center;
 }
+
+/* MEDIA QUERIES */
 
 @media only screen and (max-width: 1000px) {
     .header img{
